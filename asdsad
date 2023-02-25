@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="/asstes/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <!-- default color css  -->
+    <link rel="stylesheet" href="css/skins/color-1.css" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <!-- theme colors -->
+    <link rel="stylesheet" class="alternate-style" title="color-1" href="/css/skins/color-1.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-2" href="/css/skins/color-2.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-3" href="/css/skins/color-3.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="color-4" href="/css/skins/color-4.css">
+    <link rel="stylesheet" class="alternate-style" title="color-5" href="/css/skins/color-5.css" disabled>
+    <!-- fav icon  -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+<body>
+    <!-- navabr start -->
+    <nav class="bandung">
+        <a href="#" class="bandung-logo">Azka<span>-Home</span></a>
+
+        <div class="bandung-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#project">Project</a>
+            <a href="#sertifikat">Sertifikat</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="bandung-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- hero section start -->
+    <section class="hero" id="home">
+        <main class="swadaya">
+            <h1>Hallo Selamat Datang</h1>
+            <h5>ini adalah Web Potopolio Saya yang pertama</h5>
+            <p>Kenapa saya membeuat Web ini?Karna ini adalah web untuk kitamelamar kerja nanti</p>
+            <a href="#about" class="cta">Tentang Saya</a>
+        </main>
+    </section>
+    <section class="about-section section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <div class="data-heading">MAIN INFO</div>
+                    <h2>About me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box inner-shadow">
+                        <img src="./img/profile-pic.png" alt="" class="outer0shadow">
+                    </div>
+                    <!-- social icons -->
+                    <div class="social-links">
+
+                        <a href="https://www.facebook.com/EEE-project-solution-lab-107106394047092/" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt="" data-tilt-scale="1.1" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/channel/UC2TmzHkWeKpEXnYxRAHdjIQ" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt="" data-tilt-scale="1.1" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt="" data-tilt-scale="1.1" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt="" data-tilt-scale="1.1" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt="" data-tilt-scale="1.1" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_nextTab" class="outer-shadow hover-in-shadow link-card" data-tilt="" data-tilt-scale="1.1" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <p class="about-info-inner"><span>Hi, I am Ijaj Maulana</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius officia ea ut vonsectetur adipisicing elit</p><span class="typed-cursor">|</span>
+                    <!-- this is a just demo text  -->
+
+                    <!-- <span>Hi, this is a demo name</span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius officia ea ut vonsectetur adipisicing elit. Illo voluptatum iste, tempora rem obcaecati omnis delectus sunt, consequuntur, et ut quasi aperiam assumenda! <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex beatae reprehenderit vero maiores dignissimos error vitae, optio inventore explicabo quia officiis magni delectus? -->
+
+
+                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow" target="next_page">Download CV</a>
+                    <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                </div>
+            </div>
+            <!-- about section start -->
+            <div class="row">
+                <div class="about-tabs">
+                    <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
+                    <span class="tab-item" data-target=".experience">experience</span>
+                    <span class="tab-item" data-target=".education">education</span>
+                </div>
+            </div>
+            <!-- end -->
+            <!-- skill section start  -->
+            <div class="row">
+                <div class="skills tab-content active">
+                    <!-- skill item -->
+                    <div class="row">
+
+                        <!-- ========== Start skills ========== -->
+                        <div class="skill-item">
+                            <p>HTML</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(50% - 14px)">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <p>JavaScript</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(60% - 14px);">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <p>PHP</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(70% - 14px);">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-item">
+                            <p>Bootstrap</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(80% - 14px);">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <p>Angular</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(90% - 14px);">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <p>JQuery</p>
+                            <div class="progress inner-shadow">
+                                <div class="progress-bar" style="width: calc(95% - 14px);">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ========== End skills ========== -->
+                    </div>
+                    <!-- end -->
+                </div>
+            </div>
+            <!-- end  -->
+
+            <!-- experience  -->
+            <div class="row">
+                <div class="experience tab-content">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <!-- time line items  -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-briefcase icon"></i>
+                                        <span>Aug, 2021</span>
+                                        <h3>Web Designer</h3>
+                                        <h4>Web Developer</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, nostrum quibusdam. Dolor aut tempora eligendi.</p>
+                                    </div>
+                                </div>
+                                <!-- end  -->
+                                <!-- time line items  -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-briefcase icon"></i>
+                                        <span>Aug, 2021</span>
+                                        <h3>Web Designer</h3>
+                                        <h4>Web Developer</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, nostrum quibusdam. Dolor aut tempora eligendi.</p>
+                                    </div>
+                                </div>
+
+                                <!-- end  -->
+                                <!-- time line items  -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-briefcase icon"></i>
+                                        <span>Aug, 2021</span>
+                                        <h3>Web Designer</h3>
+                                        <h4>Web Developer</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, nostrum quibusdam. Dolor aut tempora eligendi.</p>
+                                    </div>
+                                </div>
+
+                                <!-- end  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--experience end -->
+
+            <!-- education start -->
+            <div class="row">
+                <div class="education tab-content">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <!-- time line items  -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span>2012 - 2020</span>
+                                        <h3>Web Designer</h3>
+
+                                        <p>demo education Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus repellendus aut?</p>
+                                    </div>
+                                </div>
+
+                                <!-- end  -->
+                                <!-- time line items  -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span>2012 - 2020</span>
+                                        <h3>graduate</h3>
+
+                                        <p>demo education Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus repellendus aut?</p>
+                                    </div>
+                                </div>
+
+                                <!-- end  -->
+                                <!-- time line items  -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span>2012 - 2020</span>
+                                        <h3>graduate</h3>
+
+                                        <p>demo education Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure necessitatibus repellendus aut?</p>
+                                    </div>
+                                </div>
+
+                                <!-- end  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- education end -->
+
+        </div>
+    </section>
+
+    <!-- ========== Start service section ========== -->
+
+    <!-- script -->
+    <script>
+        feather.replace()
+    </script>
+    <script src="js/main.js"></script>
+    <script src="/js/script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js'></script>
+    <!-- style switcher js -->
+    <script src="js/style-switcher.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/glassmorphism-animation.js"></script>
+    <script src="js/autoTypingAnimation.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".contact-card"), {
+            max: 25,
+            speed: 400
+        });
+
+        VanillaTilt.init(document.querySelectorAll(".link-card"), {
+            max: 25,
+            speed: 400
+        });
+
+        VanillaTilt.init(document.querySelectorAll(".card")), {
+            max: 25,
+            speed: 300
+        };
+    </script>
+</body>
+
+</html>
